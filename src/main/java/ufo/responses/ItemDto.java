@@ -1,4 +1,4 @@
-package ufo;
+package ufo.responses;
 
 import ufo.entities.Item;
 

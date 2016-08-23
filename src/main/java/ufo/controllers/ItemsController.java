@@ -1,4 +1,4 @@
-package ufo;
+package ufo.controllers;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.util.UriComponents;
+import ufo.responses.ItemDto;
 import ufo.entities.Item;
 import ufo.repositories.ItemRepository;
 
